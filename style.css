@@ -1,0 +1,1571 @@
+#bloc_page
+{
+	margin-left: 30px;
+}
+
+body
+{
+	font-family: 'Raleway', sans-serif;
+	max-width: 1420px;
+	margin-left: 35px;
+	align-items: center;
+	margin: auto;
+}
+
+
+/* debut header*/
+
+header
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#myHeader
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: -16px;
+}
+
+#menu
+{
+	width: 100%;
+	flex-direction: row;
+}
+
+#allignement
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin-right: 25px;
+}
+
+#menu2
+{
+	display: flex;
+}
+
+#logo
+{
+	margin-left: 20px;
+	width: 100%;
+}
+
+#inscription
+{
+	margin-top: 40px;
+}
+
+h2
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+p
+{
+	font-family: 'Raleway', sans-serif;
+}
+
+.img
+{
+	height: 40px;
+	width: 85px;
+	margin-top: 30px;
+}
+
+.list_one
+{
+	display: flex;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+li
+{
+	list-style: none;
+	margin: 0px;
+	color: black;
+	padding-top: 40px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+ul
+{
+	float: right;
+}
+
+li:hover
+{
+	border-top: 3px #0065FC solid;
+}
+
+a:visited 
+{
+    color: black; 
+    list-style-type: none; 
+}
+
+a:hover
+{
+	color: #0065FC;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+#inscrit
+{
+	color: #0065FC;
+}
+
+#localisation
+{
+	border: 3px #F2F2F2 solid;
+	padding: 14px;
+	border-radius: 15px 0px 0px 15px;
+	background-color: #F2F2F2;
+}
+
+#Marseille
+{
+	border: 2px #F2F2F2 solid;
+	width: 170px;
+	padding: 12px;
+	font-weight: bold; 
+}
+
+#recherche
+{
+	border: 3px #0065FC solid;
+	width: 100px;
+	text-align: center;
+	background-color: #0065FC;
+	color: white;
+	font-weight: bold;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 0px 15px 15px 0px;
+}
+
+#search
+{
+	display: flex;
+	margin-left: 20px;
+}
+
+#loupe
+{
+	display: none;
+}
+
+
+#gras
+{
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+#info
+{
+	margin-left: 20px;
+}
+
+.fa-money-bill-wave
+{
+	color: #0065FC;
+	border: 2px  #DEEBFF solid;
+	border-radius: 50%;
+	padding: 13px;
+	background-color: #DEEBFF;
+}
+
+#eco
+{
+	font-weight: bold;
+	border: 3px #D9D9D9 solid;
+	width: 160px;
+	border-radius: 50px 50px 50px 50px;
+}
+
+.fa-child
+{
+	color: #0065FC;
+	border: 2px  #DEEBFF solid;
+	border-radius: 50%;
+	padding: 12px;
+	background-color: #DEEBFF;
+}
+
+#famille
+{
+	font-weight: bold;
+	border: 3px #D9D9D9 solid;
+	width: 125px;
+	border-radius: 50px 50px 50px 50px;
+}
+
+.fa-heart
+{
+	color: #0065FC;
+	border: 2px  #DEEBFF solid;
+	border-radius: 50%;
+	padding: 12px;
+	background-color: #DEEBFF;
+}
+
+#coeur
+{
+	font-weight: bold;
+	border: 3px #D9D9D9 solid;
+	width: 160px;
+	border-radius: 50px 50px 50px 50px;
+}
+
+.fa-dog
+{
+	color: #0065FC;
+	border: 2px  #DEEBFF solid;
+	border-radius: 50%;
+	padding: 12px;
+	background-color: #DEEBFF;
+}
+
+#animal
+{
+	font-weight: bold;
+	border: 3px #D9D9D9 solid;
+	width: 210px;
+	border-radius: 50px 50px 50px 50px;
+}
+
+#boite
+{
+	display: flex;
+	justify-content: space-around;
+	margin-right: 400px;
+	margin-left: -16px;
+}
+
+.fa-info
+{
+	border: 2px #DCDCDC solid;
+	border-radius: 50%;
+	padding: 7px;
+	color: #0065FC;
+}
+
+/*fin header*/
+
+/* debut hebergement a marseille */
+
+#section1
+{
+	border: 2px #f2f2f2 solid;
+    border-radius: 30px 30px;
+    background-color: #f2f2f2;
+    width: 60%;
+}
+
+#hebergements
+{
+	text-align: left;
+	padding-left: 20px;
+	margin-top: 30px;
+}
+
+#chambre1
+{
+	display: flex;
+	width: 950px;
+	flex-wrap: wrap;
+}
+
+#auberge_can
+{
+	border: 3px white solid;
+	border-radius: 20px 20px 30px 30px;
+	width: 222px;
+	height: 200px;
+	text-align: left;
+	background-color: white;
+	padding: auto;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.photo
+{
+	border-radius: 18px 18px 0px 0px;
+}
+
+.titrePhoto
+{
+	font-weight: bold;
+	width: 170px;
+}
+
+.fa-star
+{
+	color: #0065FC;
+}
+
+.fa-custom
+{
+	color: #DADADA
+}
+
+#hotel_port
+{
+	border: 2px white solid;
+	border-radius: 20px 20px 30px 30px;
+	width: 222px;
+	height: 200px;
+	text-align: left;
+	background-color: white;
+	padding: auto;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+#hotel_mouette
+{
+	border: 2px white solid;
+	border-radius: 20px 20px 30px 30px;
+	width: 222px;
+	height: 200px;
+	text-align: left;
+	background-color: white;
+	padding: auto;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+#hotel_mer
+{
+	border: 2px white solid;
+	border-radius: 20px 20px 30px 30px;
+	width: 222px;
+	height: 200px;
+	text-align: left;
+	background-color: white;
+	padding: auto;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+
+#auberge_panier
+{
+	border: 2px white solid;
+	border-radius: 20px 20px 30px 30px;
+	width: 222px;
+	height: 200px;
+	text-align: left;
+	background-color: white;
+	padding: auto;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+
+#hotel_amina
+{
+	border: 2px white solid;
+	border-radius: 20px 20px 30px 30px;
+	width: 222px;
+	height: 200px;
+	text-align: left;
+	background-color: white;
+	padding: auto;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#ligne1
+{
+	display: flex;
+}
+
+#ligne2
+{
+	display: flex;
+}
+
+.cannebiere
+{
+	width: 100%;
+	height: 125px;
+	background-image: url('images/hebergements/mini/mini_can.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+.port
+{
+	width: 100%;
+	height: 125px;
+	background-image: url('images/hebergements/mini/mini_port.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+.mouettes
+{
+	width: 100%;
+	height: 125px;
+	background-image: url('images/hebergements/mini/mini_mouette.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+.mer
+{
+	width: 100%;
+	height: 125px;
+	background-image: url('images/hebergements/mini/mini_mer.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+.panier
+{
+	width: 100%;
+	height: 125px;
+	background-image: url('images/hebergements/mini/mini_panier.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+
+.amina
+{
+	width: 100%;
+	height: 125px;
+	background-image: url('images/hebergements/mini/mini_amina.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+/*fin hebergements a marseille*/
+
+/*debut des plus populaires*/
+
+#aside1
+{
+	border: 2px #f2f2f2 solid;
+    background-color: #f2f2f2;
+    border-radius: 30px 30px;
+    width: 32%;
+}
+
+
+#populaire
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 27px;
+	justify-content: space-around;
+}
+
+#tendance
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 95%
+}
+
+#contenu
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+#titre2
+{
+	margin-left: 40px;
+}
+
+#hotel_soleil_matin
+{
+	border: 4px white solid;
+	border-radius: 20px 20px 20px 20px;
+	background-color: white;
+	height: 140px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	display: flex;
+}
+
+#photo7
+{
+	float: left;
+	border-radius: 20px 0px 0px 20px;
+	margin-right: 8px;
+}
+
+#etoile
+{
+	margin-top: 25px;
+	margin-left: 5px;
+}
+
+#chambre_hote_eau
+{
+	border: 4px white solid;
+	border-radius: 20px 20px 20px 20px;
+	background-color: white;
+	height: 140px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	display: flex;
+}
+
+#etoile1
+{
+	margin-top: 25px;
+	display: flex;
+}
+
+
+
+#hotel_bleu_blanc
+{
+	border: 4px white solid;
+	border-radius: 20px 20px 20px 20px;
+	background-color: white;
+	height: 140px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	display: flex;
+}
+
+#photo9
+{
+	float: left;
+	border-radius: 20px 0px 0px 20px;
+	margin-right: 8px
+}
+
+.droite
+{
+	width: 40%
+}
+
+.matin
+{
+	width: 140px;
+	height: 100%;
+	background-image: url('images/hebergements/mini/hotel_soleil_matin.jpg');
+	background-size: cover;
+
+	border-radius: 18px 0px 0px 18px;
+}
+
+.eau
+{
+	width: 140px;
+	height: 100%;
+	background-image: url('images/hebergements/mini/mini_hote.jpg');
+	background-size: cover;
+
+	border-radius: 18px 0px 0px 18px;
+}
+
+.blanc
+{
+	width: 140px;
+	height: 100%;
+	background-image: url('images/hebergements/mini/hotel_bleu_blanc.jpg');
+	background-size: cover;
+
+	border-radius: 18px 0px 0px 18px;
+}
+
+
+
+
+/*fin des plus populaire*/
+
+/*debut des activités*/
+
+#vieux_port
+{
+	border: 0px white solid;
+	width: 250px;
+	height: 450px;
+	border-radius: 20px 20px;
+	box-shadow: 0px 3px 12px grey;
+	display: flex;
+	flex-direction: column;
+}
+
+#photoActivite
+{
+	border-radius: 20px 20px 0px 0px;
+}
+
+#titreMarseille
+{
+	margin-left: 20px;
+}
+
+.titreActivite
+{
+	margin-left: 15px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+#fort_pomegue
+{
+	border: 0px white solid;
+	width: 300px;
+	height: 240px;
+	border-radius: 20px 20px;
+	box-shadow: 0px 3px 12px grey;
+	display: flex;
+	flex-direction: column;
+}
+
+#ile_frioul
+{
+	border: 0px white solid;
+	width: 300px;
+	height: 170px;
+	border-radius: 20px 20px;
+	box-shadow: 0px 3px 12px grey;
+	display: flex;
+	flex-direction: column;
+}
+
+#parc_calanque
+{
+	border: 0px white solid;
+	width: 250px;
+	height: 450px;
+	border-radius: 20px 20px;
+	box-shadow: 0px 3px 12px grey;
+	display: flex;
+	flex-direction: column;
+}
+
+#contenu2
+{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#petitContenu
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#petitContenu2
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#moyenContenu
+{
+	display: flex;
+}
+
+#notre_dame
+{
+	border: 0px white solid;
+	width: 300px;
+	height: 180px;
+	border-radius: 20px 20px;
+	box-shadow: 0px 3px 12px grey;
+	display: flex;
+	flex-direction: column;
+}
+
+#parc_longchamp
+{
+	border: 0px white solid;
+	width: 300px;
+	height: 200px;
+	border-radius: 20px 20px;
+	box-shadow: 0px 3px 12px grey;
+	display: flex;
+	flex-direction: column;
+}
+
+.Vport
+{
+	width: 100%;
+	height: 400px;
+	background-image: url('images/activites/rezise/vieux_port.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+.calanques
+{
+	width: 100%;
+	height: 400px;
+	background-image: url('images/activites/rezise/parc_calanque.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+.pomegue
+{
+	width: 100%;
+	height: 200px;
+	background-image: url('images/activites/rezise/fort_pomegue.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+.longchamp
+{
+	width: 100%;
+	height: 160px;
+	background-image: url('images/activites/rezise/parc_longchamp.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+.frioul
+{
+	width: 100%;
+	height: 130px;
+	background-image: url('images/activites/rezise/ile_frioul.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+.dame
+{
+	width: 100%;
+	height: 140px;
+	background-image: url('images/activites/rezise/notre_dame.jpg');
+	background-size: cover;
+
+	border-radius: 18px 18px 0px 0px;
+}
+
+
+
+/* fin des activités */
+
+/* debut footer */
+
+#pied_page
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	white-space: pre-line;
+	margin-top: 80px;
+	border: 2px #F2F2F2 solid;
+	width: 100%;
+	height: 220px;
+	background-color: #F2F2F2;
+	padding: 30px;
+	margin-left: -40px;
+}
+
+.colonne
+{
+	display: flex;
+	flex-direction: column;
+	flex: auto;
+	margin-left: 20px;
+}
+
+
+/* media queries*/
+@media screen and (max-width: 1419px)
+{
+#moyenContenu
+{
+	display: flex;
+	flex-direction: row-reverse;
+}
+}
+
+
+
+@media screen and (max-width: 1350px)
+{
+	body
+{
+	margin-left: 30px;
+
+}
+
+#boite
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#chambre1
+{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#populaire
+{
+	height: 100%;
+}
+
+#contenu2
+{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#petitContenu2
+{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+#ligne1
+{
+	flex-direction: column;
+}
+
+#ligne2
+{
+	flex-direction: column;
+}
+
+#moyenContenu
+{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+	justify-content: center;
+}
+}
+
+
+@media screen and (max-width: 1100px)
+{
+#contenu2
+{
+	justify-content: center;
+	flex-wrap: wrap;
+    width: 100%;
+}
+
+#moyenContenu
+{
+	width: 100%;
+	justify-content: center;
+	flex-flow: wrap;
+}
+
+
+#contenu
+{
+	flex-direction: column;
+	align-items: center;
+}
+
+#aside1
+{
+	width: 60%;
+	margin-top: 50px;
+}
+
+}
+
+@media screen and (max-width: 600px)
+{
+.list_one
+{
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+#allignement
+{
+	flex-direction: column;
+}
+
+li:hover
+{
+	border-top: none;
+	border-bottom: 3px #0065FC solid;
+}
+
+#menu
+{
+	height: 59px;
+	border-bottom: 3px #f2f2f2 solid;
+}
+
+#inscription
+{
+	position: absolute;
+	right: 20px; 
+}
+}
+
+@media screen and (max-width: 600px)
+{
+#boite
+{
+	margin-right: 0px;
+}
+
+#section1
+{
+	width: 85%;
+}
+
+#aside1
+{
+	width: 85%;
+}
+
+.droite
+{
+	width: 55%;
+}
+
+.matin
+{
+	width: 30%;
+}
+
+.eau
+{
+	width: 30%;
+}
+
+.blanc
+{
+	width: 30%;
+}
+
+#pied_page
+{
+	flex-direction: column;
+    width: 100%;
+    height: 450px; 
+    justify-content: space-around;
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 425px)
+{
+
+#boite
+{
+	flex-direction: column;
+}
+
+#aside1
+{
+	width: 116%;
+	border-radius: 0px;
+}
+
+.Vport
+{
+	width: 350px;
+	height: 130px;
+	background-image: url(images/activites/rezise/petit_port.jpg);
+}
+
+#vieux_port
+{
+	width: 350px;
+	height: 160px;
+}
+
+#fort_pomegue
+{
+	height: 160px;
+	width: 350px;
+}
+
+.calanques
+{
+	width: 350px;
+	height: 130px;
+	background-image: url(images/activites/rezise/petit_calanque.jpg);
+}
+
+#parc_calanque
+{
+	width: 350px;
+	height: 165px;
+}
+
+#parc_longchamp
+{
+	height: 160px;
+	width: 350px;
+}
+
+.dame
+{
+	width: 350px;
+	height: 160px;
+}
+
+#notre_dame
+{
+	width: 350px;
+}
+
+.frioul
+{
+	width: 350px;
+}
+
+#ile_frioul
+{
+	width: 350px;
+}
+
+#contenu2
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+}
+
+@media screen and (max-width: 375px)
+{
+
+#boite
+{
+	flex-direction: column;
+}
+
+#aside1
+{
+	width: 121%;
+    border-radius: 0px;
+}
+
+
+.Vport
+{
+	width: 300px;
+	height: 160px;
+	background-image: url(images/activites/rezise/petit_port.jpg);
+}
+
+#vieux_port
+{
+	width: 300px;
+	height: 160px;
+}
+
+#fort_pomegue
+{
+	height: 160px;
+	width: 300px;
+}
+
+.calanques
+{
+	width: 300px;
+	height: 160px;
+	background-image: url(images/activites/rezise/petit_calanque.jpg);
+}
+
+#parc_calanque
+{
+	width: 300px;
+	height: 160px;
+}
+
+#parc_longchamp
+{
+	height: 160px;
+	width: 300px;
+}
+
+#notre_dame
+{
+	height: 160px;
+	width: 300px;
+}
+
+
+.dame
+{
+	width: 300px;
+	height: 160px;
+}
+
+#contenu2
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+ .frioul
+ {
+ 	width: 300px;
+ 	height: 160px;
+ }
+
+#ile_frioul
+{
+	width: 300px;
+	height: 160px;
+}
+
+}
+
+
+@media screen and (max-width: 320px)
+{
+	body
+{
+	margin: auto;
+}
+
+li
+{
+	width: 100%;
+	padding-right: 40px;
+}
+
+.img
+{
+	margin-left: 20px;
+}
+
+#menu
+{
+	width: 320px;
+	flex-direction: row;
+	border-bottom: none;
+}
+
+.list_one
+{
+	margin-right: 0px;
+	width: 320px;
+	justify-content: center;
+}
+
+#myHeader
+{
+	display: flex;
+    flex-direction: column;
+}
+
+#recherche
+{
+	display: none;
+}
+
+#loupe
+{
+	display: inherit;
+	border: 2px #0065fc solid;
+    width: 20%;
+    align-items: center;
+    background-color: #0065fc;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    height: 45px;
+    justify-content: center;
+    margin: auto;
+}
+
+#logo
+{
+	width: 100%;
+}
+
+#find
+{
+	margin-left: 13px;
+}
+
+#city
+{
+	margin-left: 13px;
+}
+
+#titreHebergement
+{
+	margin-left: 13px;
+}
+
+#plus
+{
+	margin-left: 15px;
+}
+
+#titreMarseille
+{
+	margin-left: 13px;
+}
+
+#boite
+{
+	align-self: baseline;
+	margin-left: 10px;
+	display: flex;
+    flex-direction: column;
+}
+
+.colonne
+{
+	margin-left: 15px;
+}
+
+#gras
+{
+	margin-left: 10px;
+}
+
+#info
+{
+	margin-left: 20px;
+}
+
+
+#pied_page
+{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin-left: auto;
+    padding: 0px;
+}
+
+#contenu2
+{
+	display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+#petitContenu
+{
+	width: 320px;
+}
+
+#petitContenu2
+{
+	display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+#fort_pomegue
+{
+	width: 250px;
+    height: 210px
+}
+
+#ile_frioul
+{
+	width: 250px;
+	height: 150px;
+}
+
+#notre_dame
+{
+	width: 250px;
+	height: 150px;
+}
+
+#parc_longchamp
+{
+	width: 250px;
+	height: 180px;
+}
+
+#chambre1
+{
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#ligne1
+{
+	width: 100%;
+	align-items: center;
+}
+
+#ligne2
+{
+	width: 100%;
+	align-items: center;
+}
+
+#hebergements
+{
+	width: 100%;
+	background: none;
+	border: none;
+	padding-left: inherit;
+}
+
+#section1
+{
+	background-color: white;
+	border: white;
+	display: contents;      
+}
+
+#moyenContenu
+{
+	display: flex;
+	flex-direction: column;
+	width: 320px;
+}
+
+#aside1
+{
+	width: 103%;
+    border-radius: 0px 0px;
+}
+
+#contenu
+{
+	flex-direction: column-reverse;
+	width: 320Px
+}
+
+#hotel_soleil_matin
+{
+	inline-size: max-content;
+    width: 83%;
+    margin: auto;
+    justify-content: center;
+}
+
+#chambre_hote_eau
+{
+	inline-size: max-content;
+    width: 83%;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+#hotel_bleu_blanc
+{
+	inline-size: max-content;
+    width: 83%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#allignement
+{
+	flex-direction: column;
+	width: 100%;
+}
+
+#auberge_can
+{
+	box-shadow: 0px 3px 12px grey;
+}
+
+#hotel_port
+{
+	box-shadow: 0px 3px 12px grey;
+}
+
+#hotel_mouette
+{
+	box-shadow: 0px 3px 12px grey;
+}
+
+#hotel_mer
+{
+	box-shadow: 0px 3px 12px grey;
+}
+
+#auberge_panier
+{
+	box-shadow: 0px 3px 12px grey;
+}
+
+#hotel_amina
+{
+	box-shadow: 0px 3px 12px grey;
+}
+
+li:hover
+{
+	border-top: none;
+	border-bottom: 3px #0065FC solid;
+}
+
+li
+{
+	border-bottom: 3px #f2f2f2 solid;
+}
+
+#inscription
+{
+	display: table;
+	margin-top: 40px;
+	position: absolute;
+	right: 20px;
+}
+
+#menu2
+{
+	justify-content: space-between;
+}
+
+#contenu2
+{
+	width: 0px;
+}
+
+
+
+
+#logo
+{
+	margin: 0px;
+}
+
+#boite
+{
+	margin-right: 0px;
+}
+
+.matin
+{
+	width: 40%;
+}
+
+.eau
+{
+	width: 40%;
+}
+
+.blanc
+{
+	width: 40%;
+}
+
+.droite
+{
+	align-self: center;
+	width: 55%;
+}
+
+
+.Vport
+{
+	width: 250px;
+	height: 130px;
+	background-image: url(images/activites/rezise/petit_port.jpg);
+}
+
+#vieux_port
+{
+	width: 250px;
+	height: 160px;
+}
+
+#fort_pomegue
+{
+	height: 160px;
+	width: 250px;
+}
+
+.calanques
+{
+	width: 250px;
+	height: 130px;
+	background-image: url(images/activites/rezise/petit_calanque.jpg);
+}
+
+#parc_calanque
+{
+	width: 250px;
+	height: 165px;
+}
+
+#parc_longchamp
+{
+	height: 160px;
+	width: 250px;
+}
+
+.dame
+{
+	width: 250px;
+	height: 160px;
+}
+
+.frioul
+{
+	width: 250px;
+	height: 160px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
